@@ -1,0 +1,36 @@
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
+
+# Python environments and caches
+backend/.venv/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local runtime data
+backend/bank_regulatory.db
+backend/storage/
+storage/
+*.log
+
+# Local environment and secrets
+.env
+.env.*
+backend/.env
+frontend/.env
+frontend/.env.*
+!.env.example
+!backend/.env.example
+
+# Generated staging folders and packaged site archives
+.site-stage/
+.site-stage-*/
+*.tar.gz
+frontend/.git-frontend-archive/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

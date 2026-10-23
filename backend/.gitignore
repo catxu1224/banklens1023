@@ -1,0 +1,8 @@
+.env
+*.db
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+storage/
+seed/local_seed.json

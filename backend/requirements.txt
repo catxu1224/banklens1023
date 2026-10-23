@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+pydantic-settings
+python-multipart
+sqlalchemy
+alembic
+psycopg[binary]
+pgvector
+redis
+minio
+pypdf
+python-docx
+openpyxl
+beautifulsoup4
+lxml
+httpx
